@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Giraffe Centre Tea House | Menu & Review</title>
+<style>
+:root {
+  --brown:#6b4327; --gold:#b89468; --cream:#fbf8f2; --ink:#2d241d; --line:#d9c6ad;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+header{text-align:center;padding:34px 18px 24px;border-bottom:1px solid var(--line);background:#fffdf9}
+.logo{font-size:clamp(38px,10vw,62px);color:var(--brown);margin:0 0 8px}
+.tag{letter-spacing:4px;font-size:11px;color:var(--brown);font-weight:bold}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:560px;margin:24px auto 0}
+.btn{display:block;text-decoration:none;padding:15px 12px;border-radius:8px;font-family:Arial,sans-serif;font-weight:800;letter-spacing:.5px}
+.menu-btn{background:var(--brown);color:#fff}
+.review-btn{background:#fff;color:var(--brown);border:2px solid var(--brown)}
+main{max-width:900px;margin:auto;padding:28px 16px 50px}
+.intro{text-align:center;margin-bottom:24px}
+.intro h1{color:var(--brown);margin:0 0 8px}
+.intro p{margin:0;color:#65594e;font-family:Arial,sans-serif}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.menu-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;box-shadow:0 2px 8px rgba(70,45,25,.05)}
+.menu-card h2{margin:0 0 13px;color:var(--brown);font-size:18px;letter-spacing:1px}
+.item{display:flex;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px dotted #ddcdbb;font-family:Arial,sans-serif;font-size:14px}
+.item:last-child{border-bottom:0}
+.item strong{white-space:nowrap;color:var(--brown)}
+.review{margin-top:30px;background:var(--brown);color:white;border-radius:12px;padding:28px 20px;text-align:center}
+.review h2{margin:0 0 8px}
+.review p{font-family:Arial,sans-serif;margin:0 auto 18px;max-width:520px;line-height:1.5}
+.review a{display:inline-block;background:white;color:var(--brown);padding:13px 22px;border-radius:7px;text-decoration:none;font-family:Arial,sans-serif;font-weight:800}
+footer{text-align:center;padding:20px;color:#76695d;font:12px Arial,sans-serif}
+@media(max-width:560px){.actions{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1 class="logo">Giraffe Centre</h1>
+  <div class="tag">COFFEE · TEA · HOT DRINKS</div>
+  <div class="actions">
+    <a class="btn menu-btn" href="#menu">VIEW MAIN MENU</a>
+    <a class="btn review-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdognWV-oWxa6PtVPmxvat3HffGBuIQI6qgWZ6-6X9UjhqNUw/viewform?usp=sharing&amp;ouid=114523688540821698683" target="_blank" rel="noopener">⭐ LEAVE A REVIEW</a>
+  </div>
+</header>
+
+<main>
+  <section class="intro" id="menu">
+    <h1>Main Menu</h1>
+    <p>Thank you for dining with us.</p>
+  </section>
+  <div class="grid">
+    <section class="menu-card"><h2>COFFEE</h2><div class="item"><span>Espresso</span><strong>150/= | 240/=</strong></div><div class="item"><span>Espresso Macchiato</span><strong>200/= | 240/=</strong></div><div class="item"><span>Americano</span><strong>310/= | 400/=</strong></div><div class="item"><span>Cappuccino</span><strong>310/= | 500/=</strong></div><div class="item"><span>Latte</span><strong>300/= | 480/=</strong></div><div class="item"><span>Latte Macchiato</span><strong>380/= | 500/=</strong></div><div class="item"><span>Flat White</span><strong>390/= | 500/=</strong></div><div class="item"><span>Mocha</span><strong>390/= | 590/=</strong></div><div class="item"><span>House Coffee</span><strong>240/= | —</strong></div></section>
+<section class="menu-card"><h2>HOT DRINKS — TEA</h2><div class="item"><span>English Tea</span><strong>200/=</strong></div><div class="item"><span>Ginger Tea</span><strong>350/=</strong></div><div class="item"><span>Masala Tea</span><strong>345/=</strong></div><div class="item"><span>Mixed Tea</span><strong>320/=</strong></div><div class="item"><span>Single Cinnamon Chai</span><strong>350/=</strong></div><div class="item"><span>Double Cinnamon Chai</span><strong>460/=</strong></div></section>
+<section class="menu-card"><h2>CHOCOLATE &amp; MORE</h2><div class="item"><span>Single Hot Chocolate</span><strong>350/=</strong></div><div class="item"><span>Double Hot Chocolate</span><strong>430/=</strong></div><div class="item"><span>Lemon Tea</span><strong>240/=</strong></div><div class="item"><span>Steamed Milk</span><strong>460/=</strong></div><div class="item"><span>Dawa</span><strong>410/=</strong></div></section>
+<section class="menu-card"><h2>BURGERS &amp; CHIPS</h2><div class="item"><span>Chicken burger</span><strong>540/=</strong></div><div class="item"><span>Beef burger</span><strong>520/=</strong></div><div class="item"><span>Egg cheese beef burger</span><strong>715/=</strong></div><div class="item"><span>Egg cheese chicken burger</span><strong>710/=</strong></div><div class="item"><span>Beef cheese burger</span><strong>650/=</strong></div><div class="item"><span>Chicken cheese burger</span><strong>650/=</strong></div><div class="item"><span>Chips beef burger</span><strong>870/=</strong></div><div class="item"><span>Chips chicken burger</span><strong>840/=</strong></div></section>
+<section class="menu-card"><h2>HOT DOGS</h2><div class="item"><span>Hot Dog Plain</span><strong>250/=</strong></div><div class="item"><span>Hot Dog with Onions</span><strong>280/=</strong></div></section>
+<section class="menu-card"><h2>FRENCH FRIES/CHIPS</h2><div class="item"><span>Small portion</span><strong>350/=</strong></div><div class="item"><span>Large portion</span><strong>520/=</strong></div></section>
+<section class="menu-card"><h2>SANDWICHES</h2><div class="item"><span>Egg Sandwich</span><strong>215/=</strong></div><div class="item"><span>Cheese Sandwich</span><strong>420/=</strong></div><div class="item"><span>Egg Cheese Sandwich</span><strong>440/=</strong></div><div class="item"><span>Vegetable Sandwich</span><strong>380/=</strong></div><div class="item"><span>Vegetable Cheese Sandwich</span><strong>365/=</strong></div><div class="item"><span>Tomato Cheese Sandwich</span><strong>480/=</strong></div></section>
+<section class="menu-card"><h2>SNACKS</h2><div class="item"><span>Fried Egg</span><strong>90/=</strong></div><div class="item"><span>Kenyan Chevda 150g</span><strong>690/=</strong></div><div class="item"><span>Kenyan Chevda 50g</span><strong>150/=</strong></div><div class="item"><span>Fried Egg Toast</span><strong>150/=</strong></div><div class="item"><span>Spanish Omelette</span><strong>160/=</strong></div><div class="item"><span>French Toast</span><strong>190/=</strong></div><div class="item"><span>Beef Sausages</span><strong>240/=</strong></div><div class="item"><span>Potato Crisps (Assorted)</span><strong>115/=</strong></div></section>
+<section class="menu-card"><h2>STILL &amp; SPARKLING WATER</h2><div class="item"><span>Mayers Still Water 500ml</span><strong>300/=</strong></div><div class="item"><span>Mayers Still Water 750ml</span><strong>460/=</strong></div><div class="item"><span>Mayers Sparkling Water 500ml</span><strong>360/=</strong></div></section>
+<section class="menu-card"><h2>JUICES &amp; SODAS</h2><div class="item"><span>Assorted Juices – Delmonte 1 litre</span><strong>760/=</strong></div><div class="item"><span>Assorted juices 250ml-PICK &#x27;N&#x27; PEEL</span><strong>240/=</strong></div><div class="item"><span>Assorted Sodas 300ml</span><strong>130/=</strong></div></section>
+<section class="menu-card"><h2>SYRUPS</h2><div class="item"><span>Caramel</span><strong>150/=</strong></div><div class="item"><span>Hazelnut</span><strong>150/=</strong></div><div class="item"><span>Mint</span><strong>150/=</strong></div><div class="item"><span>Vanilla</span><strong>150/=</strong></div><div class="item"><span>Cinnamon</span><strong>150/=</strong></div></section>
+  </div>
+
+  <section class="review" id="review">
+    <h2>How was your experience?</h2>
+    <p>We'd love to hear from you. Scan or tap below to share your feedback with Giraffe Centre Tea House.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdognWV-oWxa6PtVPmxvat3HffGBuIQI6qgWZ6-6X9UjhqNUw/viewform?usp=sharing&amp;ouid=114523688540821698683" target="_blank" rel="noopener">⭐ LEAVE A REVIEW</a>
+  </section>
+</main>
+<footer>Giraffe Centre Tea House · Thank you for dining with us.</footer>
+</body>
+</html>
